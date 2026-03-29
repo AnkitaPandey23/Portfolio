@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ankita Pandey | DevOps Engineer</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: black;
+  color: #e2e8f0;
+  overflow-x: hidden;
+}
+
+/* 🌌 Animated Background */
+body::before {
+  content: "";
+  position: fixed;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, #00f0ff22, transparent 70%);
+  animation: moveBg 10s linear infinite;
+  z-index: -1;
+}
+
+@keyframes moveBg {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(-25%, -25%); }
+  100% { transform: translate(0,0); }
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+
+nav a {
+  color: #00f0ff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HERO */
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  color: #00f0ff;
+  text-shadow: 0 0 20px #00f0ff;
+}
+
+header p {
+  margin-top: 20px;
+  color: #aaa;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  border: 1px solid #00f0ff;
+  color: #00f0ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00f0ff;
+  color: black;
+  box-shadow: 0 0 20px #00f0ff;
+}
+
+/* SECTION */
+section {
+  padding: 80px 10%;
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: #00f0ff;
+}
+
+/* CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 25px;
+}
+
+.card {
+  padding: 25px;
+  border: 1px solid #00f0ff33;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #00f0ff;
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  border: 1px solid #00f0ff;
+  padding: 5px 12px;
+  margin: 5px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div>Ankita Pandey⚡</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>I Build Scalable Systems</h1>
+  <p>DevOps Engineer • Automation • Cloud Infrastructure</p>
+  <a href="#projects" class="btn">Explore Work</a>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    DevOps Engineer specializing in scalable cloud infrastructure and automation-driven systems.
+    With 3.5+ years of experience in enterprise environments, 
+    I have worked on production-grade systems across Azure and AWS, focusing on reliability, performance, and continuous delivery.
+    My core strengths include Linux, containerization (Docker, Kubernetes), infrastructure as code, and CI/CD pipelines.
+    I am driven by building systems that scale seamlessly and operate with high efficiency in real-world environments.
+  </p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>AI Banking App</h3>
+      <p>Spring Boot + AI chatbot + Docker + CI/CD</p>
+      <a href="https://github.com/AnkitaPandey23/AI-BankApp-DevOps" target="_blank">GitHub →</a>
+    </div>
+
+    <div class="card">
+      <h3>DevOps Pipeline</h3>
+      <p>CI/CD with GitHub Actions </p>
+      <a href="https://github.com/AnkitaPandey23/github-actions" target="_blank">GitHub →</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: ankitapandey0549@gmail.com</p>
+  <p>
+    <a href="https://github.com/AnkitaPandey23">GitHub</a>
+  </p>
+  <p><strong>LinkedIn:</strong> 
+        <a href="https://www.linkedin.com/in/ankita-pandey-801ba82bb/" target="_blank">
+            View Profile
+        </a>
+    </p>
+</section>
+</section>
+
+<footer>
+  <p>© 2026 Ankita Pandey | DevOps Engineer</p>
+</footer>
+
+</body>
+</html>
