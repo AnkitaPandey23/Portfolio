@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankita Pandey | DevOps Engineer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: radial-gradient(circle at top, #1e293b, #020617);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      background: linear-gradient(90deg, #38bdf8, #a78bfa);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      opacity: 0.8;
+    }
+
+    .cta {
+      margin-top: 25px;
+    }
+
+    .btn {
+      padding: 12px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin: 10px;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: #38bdf8;
+      color: #020617;
+    }
+
+    .btn-secondary {
+      border: 1px solid #38bdf8;
+      color: #38bdf8;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 20px rgba(56,189,248,0.4);
+    }
+
+    nav {
+      position: fixed;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      background: rgba(2,6,23,0.7);
+      backdrop-filter: blur(10px);
+    }
+
+    nav a {
+      color: #e2e8f0;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #38bdf8;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      background: #334155;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #334155;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+  </style>
+</head>
+<body>
+
+<nav>
+  <div><strong>Ankita</strong></div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>DevOps Engineer in Progress 🚀</h1>
+  <p>Building scalable systems • Learning Cloud • Automating everything</p>
+  <div class="cta">
+    <a href="#projects" class="btn btn-primary">View Work</a>
+    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm Ankita, a DevOps enthusiast focused on building real-world cloud and automation skills.
+    I am currently transitioning into Cloud/Platform Engineering with hands-on practice in Linux,
+    Docker, Kubernetes, and CI/CD tools. My goal is to become a high-impact engineer who builds
+    reliable and scalable infrastructure.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Linux</span>
+    <span>Docker</span>
+    <span>Kubernetes</span>
+    <span>Terraform</span>
+    <span>GitHub Actions</span>
+    <span>Azure</span>
+    <span>AWS</span>
+    <span>Networking</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>AI Banking App</h3>
+      <p>Spring Boot app with integrated AI chatbot using Ollama. Includes Docker + CI/CD pipeline.</p>
+    </div>
+
+    <div class="card">
+      <h3>DevOps Pipeline</h3>
+      <p>End-to-end CI/CD pipeline using GitHub Actions, Docker, and Kubernetes deployment.</p>
+    </div>
+
+    <div class="card">
+      <h3>Cloud Infra Setup</h3>
+      <p>Provisioned cloud infrastructure using Terraform with networking and VM setup.</p>
+    </div>
+
+  </div>
+</section>
+  
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> ankitapandey0549@gmail.com</p>
+  <p><strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/ankita-pandey-801ba82bb/" target="_blank">
+            View Profile
+      </a> 
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Ankita Pandey | Built with intent & discipline</p>
+</footer>
+
+</body>
+</html>
